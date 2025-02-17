@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #f4f4f4;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+}
+nav a{
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover{
+    color: #007bff;
+}
+
+#name{
+    color: #007bff;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 75px;
+    background-color: #e9ecef;
+    height: 75vh;
+}
+.div1-text{
+    max-width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div1-image{
+    max-width: 50%;
+}
+.div1-image img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block; /* Ensure the image is displayed as a block element */
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 75px;
+    background-color: #ffffff;
+}
+
+.work-text {
+    max-width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.work-video {
+    max-width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.work-video video {
+    width: 100%;
+    height: auto;
+}
+
+.resume{
+    font-family: 'Arial', sans-serif;
+    padding: 50px 75px;
+    background: linear-gradient(135deg, #d1e8ff, #b0bec5);
+    color: #333;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 75px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+
+    .form input,
+    .form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .form input:focus,
+    .form textarea:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    .button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+    .footer{
+        background-color: #333;
+        color: #f4f4f4;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+    }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="exo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamadou</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#work">work</a>
+            <a href="resume">resume</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+    <section class="about">
+        <div class="div1-image">
+            <img src="photo.jpeg" alt="photo de profil" width="300" height="300">
+        </div>
+        <div class="div1-text">
+            <h3>Hello, I'm <span id="name">MAMADOU</span></h3>
+            <p>Le développement web frontend se concentre sur la partie visible 
+                <br> interactive d'un site ou d'une application web. Il s'agit 
+                <br>de tout ce que l'utilisateur voit et avec quoi il interagit, 
+                <br>comme le design, la mise en page, les boutons, les images, etc. 
+                <br>Le but est de créer une expérience utilisateur fluide et attrayante.</p>
+        </div>
+        </section>
+
+        <section class="work">
+            <div class="work-text">
+                <h3>My Work</h3>
+                <p>quelques exemples de mon travail: ...</p>
+            </div>
+            <div class="work-video">
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="resume">
+            <div class="div3">
+                <h3>resume</h3>
+                <p>Le front-end concerne tout ce que l'utilisateur voit 
+                    <br>et avec quoi il interagit directement dans un navigateur web. 
+                    <br>Cela inclut la structure, le design, les animations et les interactions. 
+                    <br>Les technologies clés sont : ...</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="div2">
+                <h3>contact</h3>
+                <form action="/submit" method="post" class="form">
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    
+                    <label for="password">Mot de passe:</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    
+                    <button>submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="footer">
+            <footer>
+                <p>&copy; 2025 Mamadou. Tous droits réservés.</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </footer>
+        </section>
+</body>
+</html>
